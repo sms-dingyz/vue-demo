@@ -34,12 +34,6 @@
     </div>
 
 	<h4 class="dashboard-title">分析结果</h4>
-<!--	<el-table :data="AnalysisData.data" style="width: 100%;margin-bottom: 40px">-->
-
-<!--	  <template v-for="key in AnalysisData.keys" :key="key" >-->
-<!--	    <el-table-column :prop="key" :label="key" />-->
-<!--    </template>-->
-<!--	</el-table>-->
     <el-descriptions
       title=""
       direction="vertical"
@@ -98,27 +92,8 @@
 	</el-table>
 
 
-	<!-- <h4 class="dashboard-title">厚度曲线</h4>
-	<el-divider/>
-	<ShellThickness></ShellThickness>
-    <el-divider/> -->
 
-    <h4 class="dashboard-title">温度曲线</h4>
-	<el-divider/>
-    <!-- <div id="line1" style="height: 300px; width: 100%"></div> -->
-	<TemperatureCurve></TemperatureCurve>
 	
-	<!--
-	<div id="temperaturecurve" style="height: 600px; width: 100%"></div>
-		<div style="margin-top: -100px;font-weight: bold">Spay Schedule No.{{this.Schedule}}</div>
-	-->
-    <el-divider/>
-	
-	<!--
-	<h4 class="dashboard-title">温度图形</h4>
-	<el-divider/>
-	<Fiostherms3></Fiostherms3>
-	-->
 	
 	<h4 class="dashboard-title">温度侧视图</h4>
 	<el-divider/>
@@ -132,8 +107,6 @@
 	<h4 class="dashboard-title">温度俯视图</h4>
 	<el-divider/>
 	
-	
-	<FiosthermsCutView></FiosthermsCutView>
     <el-divider/>
 
 
